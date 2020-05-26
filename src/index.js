@@ -2,10 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Counter from './Counter';
+import ContextSample from './ContextSample'
 import * as serviceWorker from './serviceWorker';
+import Hello from './Hello';
+
 
 ReactDOM.render(
-  <App />,
+  <Counter />,
   document.getElementById('root')
 );
 
